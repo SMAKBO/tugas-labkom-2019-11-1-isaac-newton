@@ -1,13 +1,55 @@
-.jumbotron { 
-		padding-left: 70px;
-		margin-top: 10px;
-		border-radius: 10px;
- }
 
-img {
- 	margin-left: auto;
- 	margin-right: auto;
- 	display: block;
- 	border-radius: 75px;
- 	margin-bottom: 30px;
- }
+
+
+
+
+
+
+body {
+	background-image: url('bg.png');
+	background-attachment: fixed;
+}
+
+.navbar-expand{
+	background: transparent;
+	margin-top: 60px;
+	color: white;
+
+}
+
+h1  {
+	color: white;
+	text-align: center;
+	font-size: 130px;
+	font-family: 'Heebo', sans-serif;
+	margin-top: 100px;
+}
+
+.p1 {
+	color : white;
+	margin-top: 80px;
+	margin-left: 400px;
+	font-weight: 40px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.p2 {
+	color : white;
+	margin-top: 80px;
+	margin-left: 200px;
+	font-weight: 40px;
+	font-family: 'Heebo', sans-serif;
+}
+.jpg3 {
+	margin-left: 80px;
+	  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+}
+
+.jpg2 {
+	margin-left: 900px;
+	  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+}
