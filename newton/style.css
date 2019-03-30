@@ -1,0 +1,291 @@
+html::-webkit-scrollbar{
+        display: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+.navbar {
+    position: fixed;
+    margin-top : 100px;
+
+    
+}
+.page-scroll {
+    transform: rotate(90deg);
+}
+.nav-link {
+    margin: 10px;
+    color: white;
+
+    margin: 30px;
+    opacity:0;
+    transform:translate(10px, 0px)  rotate(90deg);
+    transition: 1s;
+
+}
+.navbar :hover{
+    color:#ffc400;
+}
+
+.navbar :focus{
+    color: cadetblue;
+}
+
+body {
+
+background-image: url('bg.png');
+background-attachment: fixed;
+height: 657px;
+
+}
+
+.text1 {
+    color: white;
+    font-family: 'Germania One', cursive;
+    margin-top: 150px;
+    font-size: 120PX;
+    word-spacing: 10px;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(20px, 0) rotate(-15deg);
+
+
+}
+.text2{
+    color: #ffffff7e;
+    margin-top: -10px;
+    opacity: 0;
+    transition: 1s;
+}
+.newt {
+    color : #ffc400;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(20px, 0) rotate(-15deg);
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:150px;
+    border-radius: 15px;
+    filter: grayscale();
+    opacity: 0;
+    transition: 1s;
+}
+
+.btn {
+    height: 40px;
+    margin-top: -150px;
+    color: white;
+    background-color : #ffc400;
+    opacity: 0;
+    transition: 1s;
+}
+#item-1{
+    padding-bottom: 200px;
+}
+
+#item-2, #item-1  {
+    padding-top: 40px;
+ 
+}
+.p1 {
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: justify;
+    color: white;
+    word-spacing: 5px;
+    transform: 0px 0px;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0px , 40px);
+
+}
+
+.img2{
+    border-right-style: solid;
+    border-right-color: #ffc400;
+    margin-top: -250px;
+    opacity: 0;
+    transition: 2s;
+    transform: translate(40px , 0px);
+
+}
+.img3{
+    opacity: 0;
+    transition: 1.5s;
+}
+.tekun {
+    color: #ffc400
+}
+.bekun {
+    background-color: #ffc40096;
+}
+.tuwhite{
+    color:white;
+
+}
+.bening{
+    background-color: white;
+}
+.text3 {
+    color: white;
+    margin-top: 40px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 30px;
+    opacity: 0;
+    transition: 1.9s;
+    transform: translate(-40px , 0px); 
+}
+
+.all2 {
+    margin-top: 100px;
+}
+
+/* BUKU */
+    .text4{
+        color: white;
+        margin-left: 200px;
+        width: 500px; 
+        margin-top: -450px;
+        opacity: 0;
+        transform: translate(-20px,0) rotate(15deg);
+        transition: 1s;
+    }
+    .img4 {
+        margin-top: 200px;
+        opacity: 0;
+        transform: translate(50px,0)rotate(15deg);
+        transition: 1s;
+    }
+
+/* end buku */
+#item-3 {
+    padding-bottom: 100px;
+}
+.penemuan {
+    margin-left: 200px;
+    padding-top: 100px;
+    text-decoration: underline;
+    opacity: 0;
+    transition: 1s;
+}
+
+.img5{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 1000px;
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0, 20px);
+}
+.text55,.text66, .text77, .text88{
+    opacity:0;
+    transform: translate(0, 10px);
+    transition: 1s;
+}
+.text5 {
+    margin-left: 200px;
+    width: 1000px;
+    margin-top: 40px;
+    
+}
+.hk1 , .hk2 , .hk3 {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin : 5px;
+    border-radius: 6px;
+    color: white;
+    background-color: #ffa600;
+    padding: 5px;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0, 10px);
+}
+.text6 {
+    margin-left: 100px;
+}
+
+.img6{
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0, 20px);
+}
+/* end penemuan */
+
+
+/* paralax */
+
+.muncul.nav-link{
+
+    opacity: 1;
+    transform: translate(0px , 0px) rotate(90deg); 
+}
+.muncul {
+    opacity: 1;
+    transform: translate(0px , 0px) ;
+
+}
+.img4.muncul{
+    opacity: 1;
+    transform: translate(0,0) rotate(0deg);
+
+}
+
+.text4.muncul, .penemuan.muncul, .text55.muncul, .text66.muncul, .text77.muncul{
+    opacity: 1;
+    transform: translate(0,0) rotate(0deg);
+    
+}
+
+.img5.muncul {
+    opacity: 1;
+    box-shadow: 12px 12px #ffa600;
+    transform: translate(0, 0px);
+}
+
+.img6.muncul{
+    transform: translate(0, 0px);
+    opacity: 1;
+}
+
+.text1.munculin, .newt.munculin, .img1.munculin, .btn.munculin, .text2.munculin
+, .hk1.muncul ,.hk2.muncul, .hk3.muncul, .text88.muncul {
+    opacity: 1;
+    transform:translate(0,0) rotate(0deg);
+}
+.newt.munculin {
+    transform:translate(0,0) rotate(0deg);
+}
+
+.footer.muncul {
+    transform: translate(0, 0px);
+    opacity: 1;
+}
+/* end of paralax */
+/* footer */
+.footer {
+    background-color: #ffa600;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: 1s;
+}
+.footer a {
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+.footer hr{
+    background-color: white;
+    width: 60px;
+}
+/* end footer */
