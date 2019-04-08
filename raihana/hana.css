@@ -1,0 +1,50 @@
+body {
+	background-image: url('bg.png');
+	background-size: cover;
+	background background-attachment: fixed;
+	padding: 100px;
+
+}
+
+.bekun {
+	color: #ffc400;
+}
+
+.txt1 {
+	color: white;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+
+.img1 img {
+	margin-left: 80px;
+	border-radius: 800px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+}
+
+.sec2 {
+	margin-top: 100px;
+}
+.img2 img {
+	width: 500px;
+	box-shadow: 10px  10px  #ffc400;
+}
+
+
+
+
+.txt2 {
+	color: white;
+
+}
+
+.btn1{
+	background-color: #ffc400;
+	padding: 10px;
+	color: white;
+	margin-top: 100px;
+
+	border-radius: 5px;
+}
